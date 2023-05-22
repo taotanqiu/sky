@@ -2,6 +2,14 @@
   "name": "fullstack",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": ">=14 <15"
+  },
+
+
+
+
+
   "main": "app.js",
   "scripts": {
     "start": "nodemon -e css,scss,html,hbs,ejs,js,jsx app.js",
@@ -21,3 +29,4 @@
     "nodemon": "^2.0.22"
   }
 }
+
